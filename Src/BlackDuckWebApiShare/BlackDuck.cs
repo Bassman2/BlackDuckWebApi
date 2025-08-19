@@ -8,14 +8,16 @@ public class BlackDuck : JsonService
     public BlackDuck(Uri host, IAuthenticator? authenticator, string appName) : base(host, authenticator, appName, SourceGenerationContext.Default)
     { }
 
-    protected override string? AuthenticationTestUrl => "api/health";
+    //protected override string? AuthenticationTestUrl => "api/health";
 
 
     public override async Task<string?> GetVersionStringAsync(CancellationToken cancellationToken = default)
     {
         WebServiceException.ThrowIfNotConnected(client);
 
-        var res = await GetFromJsonAsync<HealthModel>("api/health", cancellationToken);
+        client.DefaultRequestHeaders.Accept.ParseAdd("application/vnd.blackducksoftware.user-4+json");
+
+        var res = await GetFromJsonAsync<HealthModel>("/api/current-user", cancellationToken);
         return res?.Version;
     }
 
