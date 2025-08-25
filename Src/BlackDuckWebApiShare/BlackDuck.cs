@@ -25,6 +25,7 @@ public partial class BlackDuck : JsonService
     public override async Task<string?> GetVersionStringAsync(CancellationToken cancellationToken = default)
     {
         WebServiceException.ThrowIfNotConnected(client);
+                
 
         //client.DefaultRequestHeaders.Accept.ParseAdd("application/vnd.blackducksoftware.user-4+json");
 
