@@ -1,6 +1,4 @@
-﻿using HtmlAgilityPack;
-using System.Text.RegularExpressions;
-using System.Xml.XPath;
+﻿using System.Text.RegularExpressions;
 
 namespace BlackDuckWebApi;
 
