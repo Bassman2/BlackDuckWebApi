@@ -1,0 +1,1 @@
+nuget pack BlackDuckWebApi.nuspec -properties Configuration=Release
