@@ -2,14 +2,14 @@
 _layout: landing
 ---
 
-## JenkinsWebApi 
+## BlackDuckWebApi 
 
-JenkinsWebApi is a .NET API for the Jenkins web service.	
+BlackDuckWebApi is a .NET API for the BlackDuck web service.	
 		
 ### Getting Started
 
 
-To get started, add the JenkinsWebApi package to your project.
+To get started, add the BlackDuckWebApi package to your project.
 
 
 
