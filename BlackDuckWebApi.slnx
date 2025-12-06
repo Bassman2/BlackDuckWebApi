@@ -1,10 +1,12 @@
 <Solution>
   <Folder Name="/Src/">
+    <Project Path="Src/BlackDuckWebApi100/BlackDuckWebApi100.csproj" />
     <Project Path="Src/BlackDuckWebApi80/BlackDuckWebApi80.csproj" />
     <Project Path="Src/BlackDuckWebApi90/BlackDuckWebApi90.csproj" />
     <Project Path="Src/BlackDuckWebApiShare/BlackDuckWebApiShare.shproj" Id="3a64ddcc-69b9-4935-b7ba-da589ccc47a5" />
   </Folder>
   <Folder Name="/Test/">
+    <Project Path="Test/BlackDuckWebApiUnitTest100/BlackDuckWebApiUnitTest100.csproj" />
     <Project Path="Test/BlackDuckWebApiUnitTest80/BlackDuckWebApiUnitTest80.csproj" />
     <Project Path="Test/BlackDuckWebApiUnitTest90/BlackDuckWebApiUnitTest90.csproj" />
     <Project Path="Test/BlackDuckWebApiUnitTestShare/BlackDuckWebApiUnitTestShare.shproj" />
